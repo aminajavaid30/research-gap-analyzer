@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Upload</title>
+</head>
+<body>
+    <h1>Research Gap Analyzer - Test Upload</h1>
+    <form action="http://localhost:8000/analyze" method="post" enctype="multipart/form-data">
+        <label for="file1">Paper 1:</label>
+        <input type="file" name="files" id="file1" accept=".pdf"><br><br>
+        
+        <label for="file2">Paper 2:</label>
+        <input type="file" name="files" id="file2" accept=".pdf"><br><br>
+        
+        <label for="file3">Paper 3:</label>
+        <input type="file" name="files" id="file3" accept=".pdf"><br><br>
+        
+        <input type="submit" value="Analyze Research Gaps">
+    </form>
+</body>
+</html>
